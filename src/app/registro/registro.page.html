@@ -1,0 +1,78 @@
+<ion-content>
+
+  <ion-header>
+
+    <ion-title></ion-title>
+   
+
+  </ion-header>
+
+  <body>
+    <br>
+    <div>
+      <ion-button (click)="homeGet()">
+        <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
+      </ion-button>
+    </div>
+
+    <div class="divPerson">
+      <ion-button (click)="loginGet()">
+        <ion-icon slot="icon-only" name="person-circle"></ion-icon>
+      </ion-button>
+    </div>
+
+    <ion-content class="ion-padding">
+      <br>
+
+      <h2>Registrate</h2>
+
+      <ion-list>
+        <br>
+        <ion-item>
+          <ion-icon class="iconRegister" name="person-circle" slot="start"></ion-icon>
+          <ion-label position="floating">Nombre</ion-label>
+          <ion-input placeholder=""></ion-input>
+        </ion-item>
+        <br>
+
+        <ion-item>
+          <ion-icon class="iconRegister" name="mail" slot="start"></ion-icon>
+          <ion-label position="floating">Correo electrónico</ion-label>
+          <ion-input type="email" placeholder=""></ion-input>
+        </ion-item>
+        <br>
+
+        <ion-item>
+          <ion-icon class="iconRegister" name="keypad" slot="start"></ion-icon>
+          <ion-label position="floating">Contraseña</ion-label>
+          <ion-input type="password" placeholder=""></ion-input>
+        </ion-item>
+      </ion-list>
+      <br>
+      <br>
+
+      <div class="divButton">
+        <button>Crear cuenta</button>
+      </div>
+      <br>
+
+      <h6>O inicia sesion con:</h6>
+      <br>
+
+      <div class="divFacebook">
+        <ion-icon class="iconNetwork" name="logo-facebook"></ion-icon>
+      </div>
+      <div class="divGmail">
+        <ion-icon class="iconNetwork" name="logo-google"></ion-icon>
+      </div>
+      <br>
+
+      <div class="divButtonH">
+        <ion-button (click)="homeGet()">
+          <ion-icon slot="icon-only" name="car"></ion-icon>
+        </ion-button>
+      </div>
+
+    </ion-content>
+  </body>
+</ion-content>

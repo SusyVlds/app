@@ -1,0 +1,63 @@
+<ion-content>
+  <ion-header>
+    <ion-title></ion-title>
+  </ion-header>
+
+  <body>
+    <br>
+    <ion-buttons>
+      <ion-button (click)="registroGet()">
+        <ion-icon slot="icon-only" name="arrow-back-circle"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <br>
+    <br>
+    <br> <br>
+
+    <ion-icon class="iconInicio" name="person-circle"></ion-icon>
+    <br>
+    <br>
+
+    <ion-list>
+      <ion-item>
+        <ion-icon class="iconRegister" name="mail" slot="start"></ion-icon>
+        <ion-label position="floating">Correo electrónico</ion-label>
+        <ion-input type="email" placeholder=""></ion-input>
+      </ion-item>
+      <br>
+
+      <ion-item>
+        <ion-icon class="iconRegister" name="keypad" slot="start"></ion-icon>
+        <ion-label position="floating">Contraseña</ion-label>
+        <ion-input type="password" placeholder=""></ion-input>
+      </ion-item>
+    </ion-list>
+    <br>
+    <br>
+    <br>
+
+    <div class="divButton">
+      <button class="buttonLogIn">Log In</button>
+    </div>
+    <br>
+
+    <div class="divForgot">
+      <ion-buttons>
+        <ion-button (click)="passwordGet()">¿Olvidaste tu Contraseña?</ion-button>
+      </ion-buttons>
+    </div>
+    <br> <br> <br>
+    <br> <br> <br>
+    <br> <br>
+
+    <div class="divButtonH">
+      <ion-buttons>
+        <ion-button (click)="homeGet()">
+          <ion-icon slot="icon-only" name="car"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </div>
+
+  </body>
+  
+</ion-content>

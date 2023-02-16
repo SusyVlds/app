@@ -1,0 +1,112 @@
+*{
+    margin: 0; 
+    padding: 0;
+    
+    
+}
+ion-content{ 
+    --ion-background-color:#2193f3; 
+  
+}
+
+h2{
+    color:white;
+    text-align: center;
+    font-size: 70px;
+    font-family: Agency FB;
+    letter-spacing: 5px;
+}
+h6{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Agency FB;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 40px;
+    
+}
+
+ion-label{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    transition: 0.3s;
+    font-size: 20px;
+    
+}
+ion-item {
+    --highlight-height: 2px;
+    --highlight-color-focused: black;
+    
+}
+
+ion-input{
+    position: absolute;
+    top: 35px;
+    color: white;
+}
+
+.iconRegister{
+    font-size: 40px;
+    color: black;
+    margin-top: 30px;
+}
+
+.iconNetwork{
+    font-size: 60px;
+    color: white;
+    margin-top: 30px;
+}
+
+.iconArriba{
+    color: white;
+}
+
+.divFacebook{
+    position: relative;
+    bottom: 20px;
+    left: 95px;
+}
+
+.divGmail{
+    position: relative;
+    bottom: 110px;;
+    left: 200px;
+}
+
+.divPerson{
+    position: relative;
+    bottom: 45px;
+    left: 330px;
+}
+
+button {
+    background-color: white; 
+    color: blanco;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    color: #2193f3;
+    border-radius: 12px;
+    width: 100%;
+    letter-spacing: 5px;
+    
+}
+
+.divButton{
+    position: relative;
+    top: 10px;
+    
+}
+
+.divButtonH{
+    position: relative;
+    bottom: 80px;
+    left: 140px;
+}
+
+ion-buttons{
+    color: white;
+}
