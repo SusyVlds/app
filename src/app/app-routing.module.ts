@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { HeaderComponent } from './components/header/header.component';
 
 const routes: Routes = [
   {
@@ -37,12 +38,21 @@ const routes: Routes = [
     path: 'forgot-password',
     redirectTo: 'forgot-password',
     pathMatch: 'full'
+  },
+  {
+    path: 'profile',
+    loadChildren: () => import('./users/profile/profile.module').then( m => m.ProfilePageModule)
+  },
+  {
+    path: 'estacionamientos',
+    loadChildren: () => import('./estacionamientos/estacionamientos.module').then( m => m.EstacionamientosPageModule)
   }
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    
   ],
   exports: [RouterModule]
 })
